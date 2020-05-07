@@ -6,9 +6,9 @@ import time
 
 # Iegūstam DB informāciju no vides mainīgajiem
 # lai nebūtu jāglabā parole publiski pieejama
-ELEPHANT_HOST = os.getenv("ELEPHANT_HOST")
-ELEPHANT_NAME = os.getenv("ELEPHANT_NAME")
-ELEPHANT_PASSWORD = os.getenv("ELEPHANT_PASSWORD")
+ELEPHANT_HOST = "balarama.db.elephantsql.com"
+ELEPHANT_NAME = "kfdthoqa"
+ELEPHANT_PASSWORD = "l8NuOnY1jLFNtI-gHoYmw4-ytDiPPHob"
 
 # Pieslēgums datubāzei izveidots un pieejams globāli
 dsn = "host={} dbname={} user={} password={}".format(ELEPHANT_HOST, ELEPHANT_NAME, ELEPHANT_NAME, ELEPHANT_PASSWORD)
